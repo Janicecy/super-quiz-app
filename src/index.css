@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  --color-red: hsl(5.93deg 100% 64.31%);
+  --color-green: #4caf50;
+  --color-blue: hsl(191.41deg 63.96% 56.47%);
+  --color-font-grey: hsl(0deg 0% 49.41%);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

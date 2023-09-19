@@ -1,0 +1,27 @@
+.countdown-timer {
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid hsl(0deg 0% 94.12%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  color: var(--color-font-grey);
+  font-weight: bold;
+}
+
+.bar {
+  width: 90%;
+  height: 8px;
+  background-color: hsl(0deg 0% 93.73%);
+  position: relative;
+}
+
+.bar-contents {
+  background-color: var(--color-blue);
+  height: 100%;
+  width: 100%;
+  transform-origin: left;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+}

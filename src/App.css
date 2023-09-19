@@ -1,0 +1,12 @@
+.App {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10px 30px;
+}
+
+.quiz-result {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 300px;
+  text-align: center;
+}
